@@ -1,0 +1,96 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: #7daa9f;
+}
+
+h1 {
+  text-align: center;
+  color: white ;
+  background-color: #547d73 ;
+  border-radius: 15px;
+  font-family:Franklin Gothic Medium;
+  border: black solid 1px;
+  
+}
+
+#todo{
+  text-align: center;
+}
+
+input[type="text"] {
+  width: 50%;
+  height: 30px;
+  border: black solid 1px;
+  border-radius: 15px;
+  transition-delay: 0.2ms;
+  transition-duration: 1s;
+  transition-property: scale;
+  transition-timing-function: ease;
+
+}
+
+#addbtn {
+  background-color: #547d73;
+  border-radius: 15px;
+  color: white;
+  border-color: #547d73;
+  font-family:Franklin Gothic Medium;
+  height: 30px;
+}
+
+li {
+  border: black solid 1px;
+  border-radius: 15px;
+  font-family: Arial;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  height: 10px;
+  transition-delay: 0.1ms;
+  transition-duration: 1s;
+  transition-property: scale;
+  transition-timing-function: ease;
+  background-color: white;
+  
+}
+
+ li button:hover {
+  background-color: #38524b;
+  border-color:  #38524b;
+  font-size: 18px;
+  
+}
+
+button {
+  transition-delay: 0.3ms;
+  transition-duration: 1s;
+  transition-property: font-size;
+  transition-timing-function: ease;
+}
+
+li button{
+  background-color: #547d73;
+  border-radius: 15px;
+  color: white;
+  border-color: #547d73;
+  font-family:Franklin Gothic Medium;
+  height: 30px;
+}
+
+#addbtn:hover{
+  background-color: #38524b;
+  border-color: #38524b;
+  font-size: 18px;
+}
+
+li:hover {
+  scale: 1.1;
+}
+
+input[type="text"]:hover {
+  scale: 1.05;
+}
