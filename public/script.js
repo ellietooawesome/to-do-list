@@ -1,4 +1,4 @@
-ocument.getElementById("todo").addEventListener('submit', function(event) {
+document.getElementById("todo").addEventListener('submit', function(event) {
   event.preventDefault();
 
 const todoinput = document.getElementById("todoinput");
